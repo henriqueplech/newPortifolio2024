@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
 
 export default function About() {
-  const { ref } = useSectionInView("About");
+  const { ref } = useSectionInView("Sobre");
 
   return (
     <motion.section
@@ -17,32 +17,16 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <SectionHeading>About me</SectionHeading>
+      <SectionHeading>Sobre mim</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+      
+      Desde que me entendo por gente amo a <span className="font-medium">Tecnologia</span>, então decidi seguir meu sonho por desenvolver novas <span className="font-medium">tecnologias</span>, atuando desenvolvendo <span className="font-medium">Produtos Digitais</span> como sites web, ajudando empresas a construírem seu negócio com seu proprio portifolio de clientes e dados. Diante disso, sigo estudando e aprimorando meus conhecimentos por novas tecnologias no curso de <span className="font-medium">Engenharia de Software, faculdade Uniasselvi - Maceió</span>. Minha parte favorita na programação é a resolução de problemas; adoro a sensação de finalmente encontrar a solução ideal para um desafio. Meu stack principal é composto por React, Next.js, Node.js e liquid, e também tenho familiaridade com TypeScript e Prisma. Estou sempre em busca de aprender novas tecnologias e aprimorar minhas habilidades. Atualmente, estou procurando uma posição em tempo integral como desenvolvedor de software.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        <span className="italic">Se eu não estiver codando</span>, pode me encontrar no discord, fala comigo que no tempo livre eu devo estar jogando uma ranqueada de Valorant. No entanto,{" "}
+        <span className="font-medium">aprender novas tecnologias</span> É com certeza meu hobby favorito. Atualmente estou estudando{" "}
+        <span className="font-medium">Inteligencia Artificial</span> também não vou perder essa onda né?! Acredito que elas podem fornecer ferramentas poderosas para resolver problemas do mundo real.
       </p>
     </motion.section>
   );

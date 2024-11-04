@@ -8,78 +8,78 @@ import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
   {
-    name: "Home",
+    name: "Início",
     hash: "#home",
   },
   {
-    name: "About",
+    name: "Sobre",
     hash: "#about",
   },
   {
-    name: "Projects",
+    name: "Projetos",
     hash: "#projects",
   },
   {
-    name: "Skills",
+    name: "Habilidades",
     hash: "#skills",
   },
   {
-    name: "Experience",
+    name: "Experiência",
     hash: "#experience",
   },
   {
-    name: "Contact",
+    name: "Contato",
     hash: "#contact",
   },
 ] as const;
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Graduação em Engenharia de Software - Uniasselvi",
+    location: "Maceió, Brasil",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Ínicio aos meus estudos no Bacharelado de Engenharia de Software, onde aprendi sobre desenvolvimento de software, engenharia de software, banco de dados, redes de computadores, metodologias ágeis, sistemas operacionais, entre outros.",
     icon: React.createElement(LuGraduationCap),
     date: "2019",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Desenvolvedor Full Stack",
+    location: "Maceió, Brasil",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Atuei desenvolvendo sites e aplicativos web, utilizando tecnologias como React, Next.js, Node.js, Express, PostgreSQL, Prisma, Tailwind, Figma, Git, entre outras. Prestando serviços para empresas locais.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2019 - 2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Desenvolvedor Web",
+    location: "São Paulo, Brazil",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Desenvolvendo em tecnologia liquid (Própria do Shopify), construio landing pages, paginas de cadastros, desenvolvo reuniões com provedores de serviçõs da shopify(Ingles) garantindo um bom desempenho e qualidade no desenvolvimento e vendas do site Cumbuca Boa.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Rede Social",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "Como deve ser uma rede social? Eu criei uma rede social com funcionalidades como postar, comentar, curtir e seguir.",
+    tags: ["React", "Next.js", "Typescript", "Javascript", "Tailwind", "Git", "Vercel"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "EuFinanceiro",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Dashboard financeiro para controle de gastos. Ele mostra gráficos de despesas, receitas e saldo.",
+    tags: ["HTML5 e CS3", "Javascript", "Vercel", "Bootstrap", "Git"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "Chatbot Usando GPT 3.5 AI",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "O próprio GPT 3.5 sendo integrado em uma aplicação e fornecendo respostas em tempo real. Útil para atendimento ao cliente né?!",
+    tags: ["React", "Next.js", "SQL", "Tailwind", "Git", "VercelSDK", "IA-GPT 3.5"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
@@ -95,13 +95,13 @@ export const skillsData = [
   "Git",
   "Tailwind",
   "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
+  "Liquid",
+  "Figma",
+  "Shopify",
+  "Scrum|Kanban",
   "Express",
   "PostgreSQL",
   "Python",
-  "Django",
+  "Pandas|NumPy",
   "Framer Motion",
 ] as const;
