@@ -62,10 +62,11 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Fala pessoal, aqui é o Henrique.</span> Estudante de{" "}
-        <span className="font-bold">Engenharia de Software</span> com{" "}
-        <span className="font-bold">4 anos</span> de experiencia, e contando... <span className="italic">sites & apps</span> Atualmente sigo desenvolvendo {" "}
-        <span className="underline">React (Next.js)</span>
+        <span className="font-bold">Fala pessoal, aqui é o Henrique.</span>{" "}
+        Estudante de <span className="font-bold">Engenharia de Software</span>{" "}
+        com <span className="font-bold">4 anos</span> de experiencia, e
+        contando... <span className="italic">sites & apps</span> Atualmente sigo
+        desenvolvendo <span className="underline">React (Next.js)</span>
       </motion.h1>
 
       <motion.div
@@ -77,12 +78,10 @@ export default function Intro() {
         }}
       >
         <Link
-          href="#contact"
+          href="https://wa.me/82991140071"
           className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
-          onClick={() => {
-            setActiveSection("Contato");
-            setTimeOfLastClick(Date.now());
-          }}
+          target="_blank" // Abre em uma nova aba
+          rel="noopener noreferrer"
         >
           Fale comigo aqui{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
