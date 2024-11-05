@@ -1,0 +1,25 @@
+{
+  "hosting": {
+    "public": "public",
+    "config": {
+      "apiKey": "AIzaSyAE0l5dz4YXuwcbaV__a1RgDYc94k1N3l8",
+      "authDomain": "portifolioemail-1fc0d.firebaseapp.com",
+      "projectId": "portifolioemail-1fc0d",
+      "storageBucket": "portifolioemail-1fc0d.firebasestorage.app",
+      "messagingSenderId": "4897974713",
+      "appId": "1:4897974713:web:047fb2a9ad19be38466e68",
+      "measurementId": "G-G1SD4HZ6EP"
+    },
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "/",
+        "destination": "/index.html"
+      },
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+]
+}
+}
